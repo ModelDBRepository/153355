@@ -1,0 +1,8 @@
+//cd /var/tmp/HE_8_12_sim
+str HEganglia = "8 12"
+str inputdir = "./input"
+str outputfileroot = ""
+str pfile     =  "Models_SubA_SubB_C/41_28_10_09_25_09_42_02_06_37_48_15_29.p"
+include ./input/synaptic_wts.g
+float syne_gbar = 1.2e-09
+include simhe.g

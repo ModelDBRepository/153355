@@ -1,0 +1,20 @@
+Leech Heart Motor Neuron Model for Ganglia 8 & 12
+Used in: Lamb DG, Calabrese RL (2013) Correlated Conductance
+Parameters in Leech Heart Motor Neurons Contribute to Motor Pattern
+Formation. PLoS ONE 8(11): e79267. doi:10.1371/journal.pone.0079267
+
+To simulate a particular model instance, execute:
+
+lgenesis-noX/lgenesis -altsimrc lgenesis-noX/simrc Models_SubA_SubB_C/<modelname>.g
+
+where <modelname> is the desired model instance as a string,
+e.g. 26_33_43_03_19_08_03_30_13_28_27_14_46 the directory
+./Models_SubA_SubB_C contains the model instances for the subsets of
+the three sets used in the paper, in particular those used for the
+later figures.
+
+Simulations may be batch processed in parallel (see the Scripts/
+directory) or the output files may be changed to provide additional
+parameters, i.e. more than just the soma membrane voltage.
+
+Damon Lamb - 2014/04/02
